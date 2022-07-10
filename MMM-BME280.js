@@ -7,6 +7,7 @@ Module.register("MMM-BME280", {
     deviceAddress: "0x76",
     temperatureScaleType: 0, // Celsuis
     pressureScaleType: 0, // hPa
+    pressureOffset: 0,
     size: "small" // You can use any official classes: https://forum.magicmirror.builders/topic/346/resize-custom-or-main-modules
   },
 

@@ -25,7 +25,8 @@ modules: [
 		position: 'top_left',
 		config: {
 			updateInterval: 5, //seconds
-			size: "small" // You can use any official classes: https://forum.magicmirror.builders/topic/346/resize-custom-or-main-modules
+			size: "small", // You can use any official classes: https://forum.magicmirror.builders/topic/346/resize-custom-or-main-modules.
+			pressureOffset: 20 // Offset of your local pressure due to sensor inaccuracies
 		}
 	},
 	...
