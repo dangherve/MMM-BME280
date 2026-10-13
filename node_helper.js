@@ -22,6 +22,7 @@ module.exports = NodeHelper.create({
             const self = this
             this.config = payload
             var deviceAddr = this.config.deviceAddress;
+            var venv = this.config.venv;
 
             // execute external DHT Script
             exec(
