@@ -14,6 +14,7 @@ Module.register("MMM-BME280", {
         humidity: true,
         pressure: true,
     },
+    venv: ""
   },
 
     // Define start sequence.
